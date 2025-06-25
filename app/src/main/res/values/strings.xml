@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrackerFinance</string>
+    
+    <!-- Navigation Titles -->
+    <string name="title_home">Home</string>
+    <string name="title_activity">Activity</string>
+    <string name="title_add">Add</string>
+    <string name="title_budget">Budget</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="monthly_summary">Monthly Summary</string>
+    <string name="total_income">Total Income</string>
+    <string name="total_expenses">Total Expenses</string>
+    <string name="current_balance">Current Balance</string>
+    <string name="budget_status">Budget Status</string>
+    <string name="spending_by_category">Spending by Category</string>
+
+    <!-- Activity Screen -->
+    <string name="all_transactions">All Transactions</string>
+    <string name="income_only">Income</string>
+    <string name="expenses_only">Expenses</string>
+
+    <!-- Transaction -->
+    <string name="add_transaction">Add Transaction</string>
+    <string name="edit_transaction">Edit Transaction</string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="type">Type</string>
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="delete_transaction">Delete Transaction</string>
+
+    <!-- Categories -->
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Bills</item>
+        <item>Shopping</item>
+        <item>Health</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="income_categories">
+        <item>Salary</item>
+        <item>Gift</item>
+        <item>Investment</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Budget Screen -->
+    <string name="monthly_budget">Monthly Budget</string>
+    <string name="category_breakdown">Category Breakdown</string>
+    <string name="spending_history">Spending History</string>
+    <string name="edit_budget">Edit Budget</string>
+
+    <!-- Settings Screen -->
+    <string name="preferences">Preferences</string>
+    <string name="currency">Currency</string>
+    <string name="data_management">Data Management</string>
+    <string name="export_data">Export Data</string>
+    <string name="import_data">Import Data</string>
+    <string name="select_currency">Select Currency</string>
+    <string name="theme">Theme</string>
+    <string name="select_theme">Select Theme</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+</resources>
