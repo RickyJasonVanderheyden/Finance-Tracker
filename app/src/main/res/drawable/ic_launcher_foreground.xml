@@ -6,46 +6,16 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
     
-    <group
-        android:scaleX="0.6"
-        android:scaleY="0.6"
-        android:translateX="21.6"
-        android:translateY="21.6">
-        
-        <!-- Phone outline with chart -->
-        <path
-            android:pathData="M54,20L74,20A10,10 0,0 1,84 30L84,78A10,10 0,0 1,74 88L34,88A10,10 0,0 1,24 78L24,30A10,10 0,0 1,34 20L54,20">
-            <aapt:attr name="android:fillColor">
-                <gradient
-                    android:startColor="#2E9E9B"
-                    android:endColor="#4355DB"
-                    android:type="linear"
-                    android:angle="45"/>
-            </aapt:attr>
-        </path>
-        
-        <!-- Chart bars and arrow -->
-        <path
-            android:pathData="M34,65L44,55L54,60L64,45L74,35"
-            android:strokeWidth="4"
-            android:strokeColor="#FFFFFF"
-            android:strokeLineCap="round"/>
-            
-        <!-- Bottom bars -->
-        <path
-            android:pathData="M34,75L39,75L39,65L34,65Z"
-            android:fillColor="#FFFFFF"/>
-        <path
-            android:pathData="M44,75L49,75L49,55L44,55Z"
-            android:fillColor="#FFFFFF"/>
-        <path
-            android:pathData="M54,75L59,75L59,60L54,60Z"
-            android:fillColor="#FFFFFF"/>
-        <path
-            android:pathData="M64,75L69,75L69,45L64,45Z"
-            android:fillColor="#FFFFFF"/>
-        <path
-            android:pathData="M74,75L79,75L79,35L74,35Z"
-            android:fillColor="#FFFFFF"/>
-    </group>
+    <path
+        android:fillColor="#1CA89E"
+        android:pathData="M54,10 L98,32 Q98,80 54,98 Q10,80 10,32 Z"/>
+    <path
+        android:fillColor="#107671"
+        android:pathData="M54,10 L98,32 Q98,80 54,98 Z"/>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M38,60 Q54,40 70,60"/>
 </vector>
